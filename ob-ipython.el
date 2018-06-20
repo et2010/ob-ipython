@@ -3,6 +3,7 @@
 ;; Author: Greg Sexton <gregsexton@gmail.com>
 ;; Keywords: literate programming, reproducible research
 ;; Homepage: http://www.gregsexton.org
+;; Version:    0.7.0
 ;; Package-Requires: ((s "1.9.0") (dash "2.10.0") (dash-functional "1.2.0") (f "0.17.2") (emacs "24"))
 
 ;; The MIT License (MIT)
