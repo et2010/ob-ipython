@@ -632,7 +632,6 @@ This function is called by `org-babel-execute-src-block'."
         output
       (ob-ipython--output output nil)
       (s-concat
-       (format "# Out[%d]:\n" (cdr (assoc :exec-count ret)))
        (s-join "\n" (->> (-map (-partial 'ob-ipython--render file)
                                (list (cdr (assoc :value result))
                                      (cdr (assoc :display result))))
